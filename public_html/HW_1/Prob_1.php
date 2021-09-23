@@ -1,3 +1,4 @@
+
 <?php
 $a1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 $a2 = [0, 1, 3, 5, 7, 9, 2, 4, 6, 8, 10];
@@ -7,7 +8,10 @@ function processArray($arr) {
     //use the $arr variable to iterate over
     echo "<br>Processing Array:<br><pre>" . var_export($arr, true) . "</pre>";
     echo "<br>Odds output:<br>";
-    //TODO add logic here to echo out only odd values
+    for($x = 0; $x < count($arr); $x++){
+        if($arr[$x]%2!=0)
+        echo $arr[$x]." ";
+    }
 
 }
 echo "Problem 1: Odd Output<br>";

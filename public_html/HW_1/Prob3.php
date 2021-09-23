@@ -1,3 +1,4 @@
+
 <?php
 $a1 = [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10];
 $a2 = [-1, 1, -2, 2, 3, -3, -4, 5];
@@ -8,7 +9,10 @@ function bePositive($arr) {
     echo "<br>Processing Array:<br><pre>" . var_export($arr, true) . "</pre>";
     echo "<br>Positive output:<br>";
     //TODO use echo to output all of the values as positive (even if they were originally positive)
-
+    foreach ($arr as $x)
+    {
+        echo abs($x." ");
+    }
 }
 echo "Problem 3: Be Positive<br>";
 ?>
