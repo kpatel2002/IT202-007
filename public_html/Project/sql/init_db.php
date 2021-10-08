@@ -35,6 +35,7 @@ try {
     foreach (glob(__DIR__ . "/*.sql") as $filename) {
         $sql[$filename] = file_get_contents($filename);
     }
+
     if (isset($sql) && $sql && count($sql) > 0) {
         echo "<p>Found " . count($sql) . " files...</p>";
         /***
@@ -92,6 +93,7 @@ try {
                 //ignoring as we know it'll be an error
                 //had to wrap in try catch due to PHP 8.0 now throwing errors for PDO exceptions
             }
+            
             $count++;
             $error = $stmt->errorInfo();
             ?>
