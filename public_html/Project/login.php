@@ -1,24 +1,69 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php");
 ?>
-<form onsubmit="return validate(this)" method="POST">
-<div>
-<label for="email">Username/Email</label>
-<input type="text" name="email" required />
+<div class="container">
+  <div class="card">
+	<h2>Log In</h2>
+	<form onsubmit="return validate(this)" method="POST">
+		<div>
+			<input class="inp_fld" type="email" name="email" required placeholder="Email"/>
+		</div>
+		<div>
+			<input class="inp_fld" type="password" id="pw" name="password" required minlength="8" placeholder="Password"/>
+		</div>
+	<input class="inp_btn" type="submit" value="Login" />
+	</form>
+	</div>
 </div>
-<div>
-<label for="pw">Password</label>
-<input type="password" id="pw" name="password" required minlength="8" />
-</div>
-<input type="submit" value="Login" />
-</form>
 <script>
-function validate(form) {
-//TODO 1: implement JavaScript validation
-//ensure it returns false for an error and true for success
-return true;
-}
+	function validate(form) {
+	//TODO 1: implement JavaScript validation
+	//ensure it returns false for an error and true for success
+	return true;
+	}
 </script>
+<style>
+	.container {
+    	width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    }
+    .card {
+		width: 30em;
+		padding: 2em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		border-radius: 10px;
+    }
+	.inp_fld {
+        border: solid 1px gray;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		padding-left: 25px;
+    }
+	
+	.inp_btn {
+		border: none;
+		background-color: black;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		color: white;
+		font-weight: bold;
+	}
+	
+	h2 {
+		font-family: Arial, sans-serif;
+	}
+</style>
+
 <?php
 //TODO 2: add PHP Code
 if (isset($_POST["email"]) && isset($_POST["password"])) {
