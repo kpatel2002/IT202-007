@@ -129,10 +129,10 @@ $_SESSION["user"]["roles"] = []; //no roles
 die(header("Location: home.php"));
                     } 
 					else {
-flash("Invalid password", "danger");
+flash("Invalid password please try again", "danger");
                     }
                 } else {
-flash("Email not found", "danger");
+flash("Email not found please register", "danger");
                 }
             }
         } catch (Exception $e) {
