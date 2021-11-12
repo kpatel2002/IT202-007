@@ -21,7 +21,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-//pull in db.php so we can access the variables from it.
+//pull in db.php so we can access the variables from it
 require_once(__DIR__ . "/../../../lib/db.php");
 $count = 0;
 try {
@@ -93,7 +93,6 @@ try {
                 //ignoring as we know it'll be an error
                 //had to wrap in try catch due to PHP 8.0 now throwing errors for PDO exceptions
             }
-            
             $count++;
             $error = $stmt->errorInfo();
             ?>

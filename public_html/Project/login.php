@@ -101,13 +101,16 @@ if (!$hasError) {
 //TODO 4
 $db = getDB();
 $stmt = $db->prepare("SELECT id, email, username, password from Users where email = :email");
+
 try {
 $r = $stmt->execute([":email" => $email]);
 if ($r) {
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
 if ($user) {
 $hash = $user["password"];
+
                     unset($user["password"]);
+					
 if (password_verify($password, $hash)) {
 flash("Welcome $email");
 $_SESSION["user"] = $user;
@@ -124,7 +127,8 @@ $_SESSION["user"]["roles"] = $roles; //at least 1 role
 $_SESSION["user"]["roles"] = []; //no roles
                         }
 die(header("Location: home.php"));
-                    } else {
+                    } 
+					else {
 flash("Invalid password", "danger");
                     }
                 } else {
