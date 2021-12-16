@@ -1,9 +1,9 @@
-# Project Name: (Which Project)
+# Project Name: Simple bank
 ## Project Summary: (Copy from proposal)
 ## Github Link: (Prod Branch of Project Folder)
 ## Project Board Link: 
 ## Website Link: (Heroku Prod of Project folder)
-## Your Name:
+## Your Name:Karan Patel
 
 <!--
 ### Line item / Feature template (use this for each bullet point)
@@ -11,7 +11,97 @@
 
 - [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Pending (Partially working)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
