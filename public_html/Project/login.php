@@ -1,5 +1,5 @@
 <?php
-require(__DIR__ . "/../../partials/nav.php");
+require_once(__DIR__ . "/partials/nav.php");
 ?>
 <div class="container">
   <div class="card">
@@ -23,6 +23,12 @@ require(__DIR__ . "/../../partials/nav.php");
 	}
 </script>
 <style>
+	body{ 
+		align-items: center;
+    	justify-content: space-around;
+    	display: flex;
+    	font-size: 15;
+	}
 	.container {
     	width: 100%;
 		display: flex;
@@ -140,7 +146,4 @@ flash("<pre>" . var_export($e, true) . "</pre>");
         }
     }
 }
-?>
-<?php
-require(__DIR__ . "/../../partials/flash.php");
 ?>
