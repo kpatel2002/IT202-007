@@ -1,20 +1,20 @@
 # Project Name: Simple bank
 ## Project Summary: (Copy from proposal)
-## Github Link: (Prod Branch of Project Folder)
+## Github Link: https://github.com/kpatel2002/IT202-007/tree/prod
 ## Project Board Link: 
-## Website Link: (Heroku Prod of Project folder)
+## Website Link: https://knp59-prod.herokuapp.com/Project/login.php
 ## Your Name:Karan Patel
 
 <!--
 ### Line item / Feature template (use this for each bullet point)
 #### Don't delete this
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+- [ ] \(mm/dd/yyyy of completion) Create the Accounts table
   -  List of Evidence of Feature Completion
     - Status: Pending (Partially working)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
@@ -24,12 +24,12 @@
 ### Line item / Feature template (use this for each bullet point)
 #### Don't delete this
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+- [ ] \(mm/dd/yyyy of completion) Project Setu[]
   -  List of Evidence of Feature Completion
     - Status: Pending (Partially working)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
@@ -39,12 +39,12 @@
 ### Line item / Feature template (use this for each bullet point)
 #### Don't delete this
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+- [ ] \(mm/dd/yyyy of completion) Create the Transactions table
   -  List of Evidence of Feature Completion
     - Status: Pending (Partially working)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
@@ -54,14 +54,45 @@
 ### Line item / Feature template (use this for each bullet point)
 #### Don't delete this
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+- [ ] \(mm/dd/yyyy of completion) Dashboard page
   -  List of Evidence of Feature Completion
     - Status: Pending (Partially working)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 <img width="1440" alt="home" src="https://user-images.githubusercontent.com/90267637/146327711-92f07f99-5641-44b4-a169-6d725181d6be.png">
+        - Screenshot #1 shows all accessible places like create account and more
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) User will be able to create a checking account
+
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
+    - Pull Requests
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
+    - Screenshots
+      - Screenshot #1 <img width="1440" alt="Screen Shot 2021-12-16 at 2 33 01 AM" src="https://user-images.githubusercontent.com/90267637/146327751-1c5f8875-cdfb-47a0-ae39-e7230b9b6bd4.png">
+        - Screenshot #1 Lets you create an checking or saving account
+### End Line item / Feature Template
+--> 
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) User will be able to list their accounts
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Partially working)
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
+    - Pull Requests
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
+    - Screenshots
+      - Screenshot #1 <img width="1440" alt="Screen Shot 2021-12-16 at 2 33 09 AM" src="https://user-images.githubusercontent.com/90267637/146327904-a726b4dd-a51b-4205-b9c6-d71fe20b5864.png">
         - Screenshot #1 description explaining what you're trying to show
 ### End Line item / Feature Template
 --> 
@@ -69,42 +100,27 @@
 ### Line item / Feature template (use this for each bullet point)
 #### Don't delete this
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+- [ ] \(mm/dd/yyyy of completion) User will be able to click an account for more information
   -  List of Evidence of Feature Completion
     - Status: Pending (Partially working)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 <img width="1440" alt="Screen Shot 2021-12-16 at 2 33 05 AM" src="https://user-images.githubusercontent.com/90267637/146327828-0f720a7d-b455-422a-8ec3-b6bf5ede1bad.png">
+        - Screenshot #1 Should be able to edit the account but it is work in progress due to some errors
 ### End Line item / Feature Template
 --> 
 <!--
 ### Line item / Feature template (use this for each bullet point)
 #### Don't delete this
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+- [ ] \(mm/dd/yyyy of completion) User will be able to deposit/withdraw from their account(s)
   -  List of Evidence of Feature Completion
-    - Status: Pending (Partially working)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Pending (not working)
+    - Direct Link: https://knp59-prod.herokuapp.com/Project/login.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-### End Line item / Feature Template
---> 
-<!--
-### Line item / Feature template (use this for each bullet point)
-#### Don't delete this
-
-- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Partially working)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/kpatel2002/IT202-007/pull/34
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
