@@ -1,75 +1,78 @@
-/* design intentionally made horrible to see who doesn't change it*/
+.alert-success {
+    background-color: green
+}
+
+.alert-warning {
+    background-color: yellow;
+}
+
+.alert-danger {
+    background-color: red;
+}
+
+.alert-info {
+    background-color: teal;
+}
+
 body {
-    font-family: system;
-    font-size: 1.5em;
-}
-
-ul[class="nav"]{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightblue;
-}
-
-.nav > li {
-    float: left;
-}
-
-.nav > li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 16px;
+    margin: 0px;
+    }
+    
+    nav {
+    font-family: Arial, sans-serif;
+    font-weight: 10;
+    }
+    
+    ul {
+    height: 3em;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+    background: black;
+    }
+    
+    ul a {
+    color: white;
     text-decoration: none;
-}
-
-.nav > li a:hover {
-    background-color: #39ca40;
-}
-
-input, select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    width: 100%;
-    background-color: lightblue;
-    color: black;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input:nth-of-type(1) {
-    margin-left: 5px !important;
-    margin-right: 5px !important;
-}
-
-input:nth-of-type(2) {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-}
-
-input:nth-of-type(3) {
-    margin-left: 15px !important;
-    margin-right: 15px !important;
-}
-
-input:nth-of-type(4) {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-}
-
-input:nth-of-type(5) {
-    margin-left: 25px !important;
-    margin-right: 25px !important;
-}
+    }
+    
+    .container {
+    	width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    }
+    .card {
+		width: 30em;
+		padding: 2em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		border-radius: 10px;
+    }
+	.inp_fld {
+        border: solid 1px gray;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		padding-left: 25px;
+    }
+	
+	.inp_btn {
+		border: none;
+		background-color: black;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		color: white;
+		font-weight: bold;
+	}
+	
+	h2 {
+		font-family: Arial, sans-serif;
+	}
