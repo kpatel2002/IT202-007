@@ -1,5 +1,5 @@
 <?php
-require(__DIR__ . "/../../partials/nav.php");
+require_once(__DIR__ . "/partials/nav.php");
 ?>
 <div class="container">
   <div class="card">
@@ -129,10 +129,10 @@ $_SESSION["user"]["roles"] = []; //no roles
 die(header("Location: home.php"));
                     } 
 					else {
-flash("Invalid password please try again", "danger");
+flash("Invalid password", "danger");
                     }
                 } else {
-flash("Email not found please register", "danger");
+flash("Email not found", "danger");
                 }
             }
         } catch (Exception $e) {
@@ -140,7 +140,4 @@ flash("<pre>" . var_export($e, true) . "</pre>");
         }
     }
 }
-?>
-<?php
-require(__DIR__ . "/../../partials/flash.php");
 ?>

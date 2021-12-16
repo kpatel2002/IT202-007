@@ -29,8 +29,14 @@ require_once(__DIR__ . "/../lib/functions.php");
 <nav>
     <ul>
         <?php if (is_logged_in()) : ?>
-            <li><a href="<?php echo get_url('home.php'); ?>">Home</a></li>
-            <li><a href="<?php echo get_url('profile.php'); ?>">Profile</a></li>
+            <li><a href="profile.php">Profile</a></li>
+            <li><a href="create_account.php">Create Account</a></li>
+            <li><a href="edit_account.php">Edit Account</a></li>
+            <li><a href="list_account.php">List Account</a></li>
+            <li><a href="create_transactions.php">Create Transactions</a></li>
+            <li><a href="list_transactions.php">List Transactions</a></li>
+            <li><a href="reset_password.php">Reset Password</a></li>
+            <li><a href="logout.php">Logout</a></li>
         <?php endif; ?>
         <?php if (!is_logged_in()) : ?>
             <li><a href="<?php echo get_url('login.php'); ?>">Login</a></li>
@@ -39,5 +45,7 @@ require_once(__DIR__ . "/../lib/functions.php");
         <?php if (is_logged_in()) : ?>
             <li><a href="<?php echo get_url('logout.php'); ?>">Logout</a></li>
         <?php endif; ?>
+        
+        
     </ul>
 </nav>
