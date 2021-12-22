@@ -22,17 +22,17 @@ if (isset($id)) {
 <?php if (isset($result) && !empty($result)): ?>
     <div class="card">
         <div class="card-title">
-            <?php safer_echo($result["id"]); ?>
+            <?php echo($result["id"]); ?>
         </div>
         <div class="card-body">
             <div>
                 <p>Information</p>
-                <div>Account Number: <?php safer_echo($result["account_number"]); ?></div>
-                <div>Account Type: <?php safer_echo($result["account_type"]); ?></div>
-                <div>Balance: $<?php safer_echo($result["balance"]); ?></div>
-                <div>Last Updated: <?php safer_echo($result["last_updated"]); ?></div>
-                <div>Owned by: <?php safer_echo($result["username"]); ?> (<?php safer_echo($result["email"]); ?>)</div>
-                <div>Opened: <?php safer_echo($result["opened_date"]); ?></div>
+                <div>Account Number: <?php echo($result["account_number"]); ?></div>
+                <div>Account Type: <?php echo($result["account_type"]); ?></div>
+                <div>Balance: $<?php echo($result["balance"]); ?></div>
+                <div>Last Updated: <?php echo($result["last_updated"]); ?></div>
+                <div>Owned by: <?php echo($result["username"]); ?> (<?php echo($result["email"]); ?>)</div>
+                <div>Opened: <?php echo($result["opened_date"]); ?></div>
             </div>
         </div>
     </div>

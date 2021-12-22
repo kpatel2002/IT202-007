@@ -58,7 +58,7 @@ if (!isset($username)) {
 <form method="POST">
   <div class="form-group">
     <label for="email">Email Address</label>
-    <input type="email" class="form-control" id="email" name="email" maxlength="100" required value="<?php safer_echo($email); ?>">
+    <input type="email" class="form-control" id="email" name="email" maxlength="100" required value="<?php echo($email); ?>">
   </div>
   <div class="form-group">
     <label for="password">Password</label>
@@ -70,5 +70,52 @@ if (!isset($username)) {
   </div>
   <button type="submit" name="reset" value="Reset" class="btn btn-primary">Reset</button>
 </form>
+<style>
+	body{ 
+		align-items: center;
+    	justify-content: space-around;
+    	display: flex;
+    	font-size: 15;
+	}
+	.container {
+    	width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    }
+    .card {
+		width: 30em;
+		padding: 2em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		border-radius: 10px;
+    }
+	.inp_fld {
+        border: solid 1px gray;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		padding-left: 25px;
+    }
+	
+	.inp_btn {
+		border: none;
+		background-color: black;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		color: white;
+		font-weight: bold;
+	}
+	
+	h2 {
+		font-family: Arial, sans-serif;
+	}
+</style>
 
 <?php require __DIR__ . "/partials/flash.php"; ?>
