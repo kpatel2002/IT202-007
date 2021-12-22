@@ -111,9 +111,9 @@ if (isset($_POST["saved"])) {
 
     <form method="POST">
         <label for="email">Email</label>
-        <input type="email" name="email" value="<?php safer_echo(get_email()); ?>"/>
+        <input type="email" name="email" value="<?php echo(get_email()); ?>"/>
         <label for="username">Username</label>
-        <input type="text" maxlength="60" name="username" value="<?php safer_echo(get_username()); ?>"/>
+        <input type="text" maxlength="60" name="username" value="<?php echo(get_username()); ?>"/>
         <!-- DO NOT PRELOAD PASSWORD-->
         <label for="pw">Password</label>
         <input type="password" name="password"/>
@@ -121,4 +121,68 @@ if (isset($_POST["saved"])) {
         <input type="password" name="confirm"/>
         <input type="submit" name="saved" value="Save Profile"/>
     </form>
+    <style>
+        body {
+    margin: 0px;
+    }
+    
+    nav {
+    font-family: Arial, sans-serif;
+    font-weight: 10;
+    }
+    
+    ul {
+    height: 3em;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+    background: black;
+    }
+    
+    ul a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    .container {
+    	width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    }
+    .card {
+		width: 30em;
+		padding: 2em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		border-radius: 10px;
+    }
+	.inp_fld {
+        border: solid 1px gray;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		padding-left: 25px;
+    }
+	
+	.inp_btn {
+		border: none;
+		background-color: black;
+		border-radius: 5px;
+		margin: 1em;
+		height: 35px;
+		width: 285px;
+		color: white;
+		font-weight: bold;
+	}
+	
+	h2 {
+		font-family: Arial, sans-serif;
+	}
+    </style>
 <?php require(__DIR__ . "/partials/flash.php");

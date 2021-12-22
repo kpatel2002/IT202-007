@@ -35,8 +35,8 @@ if (isset($_POST["save"])) {
 	<select name="account_src">
     <option value="-1">000000000000 | world</option>
   <?php foreach ($results as $r): ?>
-    <option value="<?php safer_echo($r["id"]); ?>">
-      <?php safer_echo($r["account_number"]); ?> | <?php safer_echo($r["account_type"]); ?> | <?php safer_echo($r["balance"]); ?>
+    <option value="<?php echo($r["id"]); ?>">
+      <?php echo($r["account_number"]); ?> | <?php echo($r["account_type"]); ?> | <?php echo($r["balance"]); ?>
     </option>
   <?php endforeach; ?>
   </select>
@@ -46,8 +46,8 @@ if (isset($_POST["save"])) {
 	<select name="account_dest">
     <option value="-1">000000000000 | world</option>
   <?php foreach ($results as $r): ?>
-    <option value="<?php safer_echo($r["id"]); ?>">
-      <?php safer_echo($r["account_number"]); ?> | <?php safer_echo($r["account_type"]); ?> | <?php safer_echo($r["balance"]); ?>
+    <option value="<?php echo($r["id"]); ?>">
+      <?php echo($r["account_number"]); ?> | <?php echo($r["account_type"]); ?> | <?php echo($r["balance"]); ?>
     </option>
   <?php endforeach; ?>
   </select>

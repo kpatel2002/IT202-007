@@ -80,9 +80,9 @@ if (isset($id)) {
 
 <form method="POST">
 	<label>Amount</label>
-	<input type="number" min="0.00" name="amount" step="0.01" value="<?php safer_echo(abs($result["amount"])); ?>"/>
+	<input type="number" min="0.00" name="amount" step="0.01" value="<?php echo(abs($result["amount"])); ?>"/>
 	<label>Memo</label>
-	<input name="memo" type="text" value="<?php safer_echo($result["memo"]); ?>"/> 
+	<input name="memo" type="text" value="<?php echo($result["memo"]); ?>"/> 
 	<input type="submit" name="save" value="Create"/>
 </form>
 

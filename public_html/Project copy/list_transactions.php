@@ -26,7 +26,7 @@ if (isset($_POST["search"]) && !empty($query) && !empty($account_type)) {
         <option value="src">Account Source ID</option>
         <option value="dest">Account Dest ID</option>
     </select>
-    <input name="query" placeholder="Account ID" value="<?php safer_echo($query); ?>"/>
+    <input name="query" placeholder="Account ID" value="<?php echo($query); ?>"/>
     <input type="submit" value="Search" name="search"/>
 </form>
 <div class="results">
@@ -36,35 +36,35 @@ if (isset($_POST["search"]) && !empty($query) && !empty($account_type)) {
             <div class="list-group-item">
                 <div>
                     <div>Account Src ID:</div>
-                    <div><?php safer_echo($r["act_src_id"]); ?></div>
+                    <div><?php echo($r["act_src_id"]); ?></div>
                 </div>
                 <div>
                     <div>Account Dest ID:</div>
-                    <div><?php safer_echo($r["act_dest_id"]); ?></div>
+                    <div><?php echo($r["act_dest_id"]); ?></div>
                 </div>
                 <div>
                     <div>Amount:</div>
-                    <div>$<?php safer_echo($r["amount"]); ?></div>
+                    <div>$<?php echo($r["amount"]); ?></div>
                 </div>
                 <div>
                     <div>Type:</div>
-                    <div><?php safer_echo($r["action_type"]); ?></div>
+                    <div><?php echo($r["action_type"]); ?></div>
                 </div>
                 <div>
                     <div>Memo:</div>
-                    <div><?php safer_echo($r["memo"]); ?></div>
+                    <div><?php echo($r["memo"]); ?></div>
                 </div>
                 <div>
                     <div>Expected Total:</div>
-                    <div>$<?php safer_echo($r["expected_total"]); ?></div>
+                    <div>$<?php echo($r["expected_total"]); ?></div>
                 </div>
                 <div>
                     <div>Created:</div>
-                    <div><?php safer_echo($r["created"]); ?></div>
+                    <div><?php echo($r["created"]); ?></div>
                 </div>
                 <div>
-                    <a type="button" href="test_edit_transactions.php?id=<?php safer_echo($r['id']); ?>">Edit</a>
-                    <a type="button" href="test_view_transactions.php?id=<?php safer_echo($r['id']); ?>">View</a>
+                    <a type="button" href="test_edit_transactions.php?id=<?php echo($r['id']); ?>">Edit</a>
+                    <a type="button" href="test_view_transactions.php?id=<?php echo($r['id']); ?>">View</a>
                 </div>
             </div>
         <?php endforeach; ?>
